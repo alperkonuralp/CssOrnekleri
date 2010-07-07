@@ -1,0 +1,32 @@
+﻿#dContainer
+{
+    width: 100px;
+    height: 100px;
+    background: #efefef;
+}
+
+#dContainer2
+{
+    width: 96px;
+    height: 96px;
+    background: #efefef;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid blue;
+    margin: 2px 2px 2px 2px;
+}
+.CerceveliResim
+{
+    width: auto;
+    height: auto;
+    border: ridge 10px gray;
+    padding: 2px;
+    background: #ACBFD0;
+    margin: 2px;
+    width: 100px;
+}
+
+#dAbsolute{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}

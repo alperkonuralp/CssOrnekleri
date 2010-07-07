@@ -1,0 +1,90 @@
+﻿#dContainer
+{
+    border: 1px solid Maroon;
+    width: 600px;
+    margin: 0 auto;
+    font: italic small-caps bold 10pt/15px Verdana, Tahoma, Calibri; 
+    /*font-family: Verdana, Tahoma, Times New Roman, Serif;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: bold;
+    font-variant:small-caps;*/
+    text-align: left;
+    /*text-decoration: overline line-through underline;*/
+    text-decoration: none;
+    text-indent: 10px;
+    text-transform: uppercase;
+}
+#dContainer #dHeader
+{
+    width: 600px;
+    height: 50px;
+    background: Blue;
+    color: White;
+    font-style:normal;
+    font-variant: normal; /* yorum satırı */
+}
+#dContainer #dHeader a 
+{
+    color: Black;
+}
+#dContainer #dBody
+{
+    width: 600px;
+    height: 250px;
+    background: Green;
+    color: White;
+}
+
+#dContainer #dBody:first-letter
+{
+    font-size: 18pt;
+}
+
+#dContainer #dBody:first-line
+{
+    font-size: 13pt;
+}
+
+#dContainer #dBody p:after
+{
+    content: '"';
+}
+#dContainer #dBody p:before
+{
+    content: '"';
+}
+
+
+#dContainer #dBody input:focus
+{
+    background: pink;
+}
+
+
+#dContainer #dFooter
+{
+    width: 600px;
+    height: 50px;
+    background: Gray;
+    color: White;
+}
+/*#dContainer #dFooter a
+{
+    color: White;
+}*/
+
+#dContainer #dFooter a:hover
+{
+    text-decoration: none;
+}
+
+#dContainer #dFooter a:visited
+{
+    color: Yellow;
+}
+
+a:after
+{
+    content: url(link.png);
+}

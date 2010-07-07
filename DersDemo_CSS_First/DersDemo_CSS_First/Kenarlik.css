@@ -1,0 +1,62 @@
+﻿div
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#Div1
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: Gray;
+}
+
+#Div2
+{
+    border: dashed 3px blue;
+}
+
+#Div3
+{
+    border: dotted 3px blue;
+}
+#Div4
+{
+    border: double 10px #AAAAAA;
+}
+
+#Div5
+{
+    border: ridge 10px #AAAAAA;
+}
+
+#Div6
+{
+    border: inset 10px #AAAAAA;
+}
+
+#Div7
+{
+    border: outset 10px #AAAAAA;
+}
+#Div8
+{
+    border: groove 10px #AAAAAA;
+}
+#Div9
+{
+    border-top: solid 10px #DDDDDD;
+    border-right: solid 10px #BBBBBB;
+    border-bottom: solid 10px #999999;
+    border-left: solid 10px #777777;
+}
+.NoBorder
+{
+    border: none;
+}
+a img
+{
+    border: none 0;
+}
