@@ -1,0 +1,23 @@
+﻿*
+{
+    background: #EEEEEE;
+    font: 11pt verdana, tahoma;
+}
+
+p, a, ul, li
+{
+    color: #666666;
+    font: 10pt verdana, Tahoma, New times Roman, serif;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.YellowBack
+{
+    background: yellow;
+}
+
+#p1
+{
+    font-style: italic;
+}
+

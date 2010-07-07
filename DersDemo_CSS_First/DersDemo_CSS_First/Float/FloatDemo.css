@@ -1,0 +1,54 @@
+﻿#dContainer
+{
+    width: 805px;
+}
+
+#dContainer div
+{
+    margin: 0;
+    border: none 0;
+    padding: 0;
+    float:left;
+}
+#dContainer #div1
+{
+    background: transparent url(m2_01.png) no-repeat;
+    width: 800px;
+    height: 30px;
+}
+#dContainer #div2
+{
+    background: transparent url(m2_02.png) no-repeat;
+    width: 234px;
+    height: 104px;
+}
+#dContainer #div3
+{
+    background: transparent url(m2_03.png) no-repeat;
+    width: 566px;
+    height: 104px;
+}
+#dContainer #div4
+{
+    background: transparent url(m2_04.png) no-repeat;
+    width: 234px;
+    height: 391px;
+}
+#dContainer #div5
+{
+    background: transparent url(m2_05.png) no-repeat;
+    width: 389px;
+    height: 391px;
+}
+#dContainer #div6
+{
+    background: transparent url(m2_06.png) no-repeat;
+    width: 177px;
+    height: 391px;
+}
+#dContainer #div7
+{
+    background: transparent url(m2_07.png) no-repeat;
+    width: 800px;
+    height: 75px;
+}

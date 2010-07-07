@@ -1,0 +1,27 @@
+﻿#dFixedMenu
+{
+    position: fixed;
+    right: 2px;
+    top: 2px;
+    width: 90px;
+    height: 65px;
+    background: gray;
+    padding: 3px 4px;
+}
+
+#p4
+{
+    width: 400px;
+    /*height: 100px;*/
+    background: gray;
+    /*overflow: hidden;*/
+    /*overflow:scroll;*/
+    /*overflow: auto;*/
+}
+
+#p5
+{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
