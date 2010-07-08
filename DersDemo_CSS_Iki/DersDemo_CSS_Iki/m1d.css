@@ -1,0 +1,95 @@
+﻿body{
+    background: white url(check.png) repeat scroll left top;
+}
+
+#dContainer
+{
+    width: 800px;
+    height: 600px;
+}
+#dContainer div div
+{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+#dContainer div div:hover
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#dContainer #dColumn1
+{
+    width: 194px;
+    float: left;
+}
+#dContainer #dColumn2
+{
+    width: 296px;
+    float: left;
+}
+#dContainer #dColumn3
+{
+    width: 278px;
+    float: left;
+}
+#dContainer #dColumn1 #Div1
+{
+    width: 194px;
+    height: 98px;
+    background: transparent url(m1_01.png) no-repeat scroll left top;
+}
+#dContainer #dColumn1 #Div5
+{
+    width: 194px;
+    height: 52px;
+    background: transparent url(m1_05.png) no-repeat scroll left top;
+}
+#dContainer #dColumn1 #Div6
+{
+    width: 194px;
+    height: 240px;
+    background: transparent url(m1_06.png) no-repeat scroll left top;
+}
+#dContainer #dColumn1 #Div10
+{
+    width: 194px;
+    height: 122px;
+    background: transparent url(m1_10.png) no-repeat scroll left top;
+}
+#dContainer #dColumn2 #Div2
+{
+    width: 296px;
+    height: 230px;
+    background: transparent url(m1_02.png) no-repeat scroll left top;
+}
+#dContainer #dColumn2 #Div7
+{
+    width: 296px;
+    height: 282px;
+    background: transparent url(m1_07.png) no-repeat scroll left top;
+}
+#dContainer #dColumn3 #Div3
+{
+    width: 278px;
+    height: 46px;
+    background: transparent url(m1_03.png) no-repeat scroll left top;
+}
+#dContainer #dColumn3 #Div4
+{
+    width: 278px;
+    height: 184px;
+    background: transparent url(m1_04.png) no-repeat scroll left top;
+}
+#dContainer #dColumn3 #Div8
+{
+    width: 278px;
+    height: 48px;
+    background: transparent url(m1_08.png) no-repeat scroll left top;
+}
+#dContainer #dColumn3 #Div9
+{
+    width: 278px;
+    height: 234px;
+    background: transparent url(m1_09.png) no-repeat scroll left top;
+}

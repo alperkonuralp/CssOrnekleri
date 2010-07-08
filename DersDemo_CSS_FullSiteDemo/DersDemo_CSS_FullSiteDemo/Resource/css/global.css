@@ -1,0 +1,74 @@
+﻿body
+{
+    margin: 0;
+    font: 11pt Verdana, Tahoma, serif;
+}
+
+.clear
+{
+    clear: both;
+    width: 0;
+    height: 0;
+    line-height: 0;
+}
+
+#dContainer
+{
+    width: 790px;
+}
+#dContainer #dHeader
+{
+    height: 167px;
+    background: #00579A url(../images/re_03.png) repeat-x scroll left top;
+}
+#dContainer #dHeader #h1Logo
+{
+    float: left;
+    width: 234px;
+    height: 167px;
+    background: transparent url(../images/logo.png) no-repeat scroll left top;
+    margin: 0;
+    padding: 0 0 0 -100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#dContainer #dHeader #h1Logo a
+{
+    margin-left: -2000px;
+}
+
+#dContainer #dHeader #dBanner
+{
+    float: left;
+    width: 511px;
+    height: 114px;
+    background: transparent url(../images/banner.png) no-repeat scroll left top;
+}
+#dContainer #dHeader #dTopMenu
+{
+    float: left;
+}
+#dContainer #dHeader #dTopMenu a
+{
+    color: White;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+    padding: 0 5px;
+    display: block;
+    float: left;
+    font-size: 10pt;
+}
+#dContainer #dHeader #dTopMenu a:hover
+{
+    background: #50A1E3 none;
+}
+
+
+#dContainer #dBody
+{
+    background: white url(../images/leftmenuback.png) repeat-y scroll left top;
+    min-height: 200px;
+}
+#dContainer #dFooter
+{
+}
