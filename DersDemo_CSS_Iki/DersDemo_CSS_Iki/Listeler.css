@@ -1,0 +1,152 @@
+﻿#ul1
+{
+    /*list-style-type: square;*/
+    list-style-image: url(check.png);
+}
+
+#ul2
+{
+    list-style: none;
+    padding: 0;
+}
+#ul3
+{
+    width: 150px;
+    list-style: none;
+    padding: 0;
+}
+#ul3 li:hover
+{
+    background: white url(back.png) repeat-x scroll left center;
+    color: White;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+}
+
+
+#ul4
+{
+    width: 200px;
+    height: 25px;
+    list-style: none;
+    padding: 0;
+    border: solid 1px #eeeeee;
+}
+#ul4 li
+{
+    float: left;
+    width: 40px;
+    text-align: center;
+}
+#ul4 li:hover
+{
+    background: white url(back.png) repeat-x scroll left center;
+    color: White;
+    cursor: pointer;
+}
+
+.clear
+{
+    clear: both;
+    width: 0;
+    height: 0;
+    line-height: 0;
+}
+
+
+#ul5
+{
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: blue;
+    color: White;
+    font: 11pt Verdana, Tahoma;
+    padding: 3px;
+}
+
+#ul5 li
+{
+    float: left;
+    margin: 0 2px;
+    padding: 0 3px;
+}
+
+#ul5 li:hover
+{
+    background: white url(back.png) repeat-x scroll left center;
+}
+
+#ul6
+{
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: blue;
+    color: White;
+    font: 11pt Verdana, Tahoma;
+    padding: 0 3px;
+}
+
+#ul6 li
+{
+    float: left;
+    padding: 3px 5px;
+}
+
+#ul6 li:hover
+{
+    background: white url(back.png) repeat-x scroll left center;
+}
+
+#ul7
+{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: blue url(r_01.png) repeat-x scroll left center;
+    color: White;
+    font: 10pt Verdana, Tahoma;
+    padding: 0 10px;
+}
+
+#ul7 li
+{
+    float: left;
+    background: transparent url(r_03.png) no-repeat scroll left top;
+    padding: 0 0 0 10px;
+}
+#ul7 li:first-child
+{
+    background: transparent none;
+}
+#ul7 li a
+{
+    display: block;
+    height: 100%;
+    padding: 3px 10px 3px 5px;
+    margin: 0;
+    color: White;
+    text-decoration: none;
+    float: left;
+}
+#ul7 li a:hover
+{
+    background: white url(back.png) repeat-x scroll left center;
+}
+
+
+#dContainer 
+{
+    width: 650px;
+    background: #e0e0e0;
+}
+#dContainer #div1,#dContainer #div2,#dContainer #div3,#dContainer #div4,#dContainer #div5{
+    width: 150px;
+    height: 50px;
+    border: 1px solid blue;
+    float:left;
+}
