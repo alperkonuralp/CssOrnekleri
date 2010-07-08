@@ -3,6 +3,15 @@
 <head>
     <title></title>
     <link href="/Resource/css/global.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/Resource/js/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#dFooter a").html('');
+        });
+    </script>
+
 </head>
 <body>
     <div id="dContainer">
@@ -12,18 +21,69 @@
             <div id="dBanner">
             </div>
             <div id="dTopMenu">
-                <a href="#">Hakkımızda</a>
-                <a href="#">Kurslar</a>
-                <a href="#">Rehberlik</a>
-                <a href="#">Dershane Çalışmaları</a>
-                <a href="#">Yayınlarımız</a>
-                <div class="clear"></div>
+                <a href="#">Hakkımızda</a> <a href="#">Kurslar</a> <a href="#">Rehberlik</a> <a href="#">
+                    Dershane Çalışmaları</a> <a href="#">Yayınlarımız</a>
+                <div class="clear">
+                </div>
             </div>
-            <div class="clear"></div>
+            <div class="clear">
+            </div>
         </div>
         <div id="dBody">
+            <div id="dBodyLeft">
+                <img src="Resource/images/ITKLogo.png" alt="" />
+                <img src="Resource/images/LoginHeader.png" alt="" />
+                <table align="center">
+                    <tr>
+                        <td align="right">
+                            Kullanıcı
+                        </td>
+                        <td align="left">
+                            <input type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Parola
+                        </td>
+                        <td align="left">
+                            <input type="password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="checkbox" />
+                            Beni Hatırla
+                            <input type="submit" value="Giriş" />
+                        </td>
+                    </tr>
+                </table>
+                <img src="Resource/images/LoginFooter.png" alt="" />
+                <a class="cReklamLink" href="#">
+                    <img src="Resource/images/reklam1.png" alt="" /></a>
+                <a class="cReklamLink" href="#">
+                    <img src="Resource/images/reklam2.png" alt="" /></a>
+                <div class="cBlueIcon"><a href="#">SBS Puan Hesaplama</a></div>
+                <div class="cBlueIcon"><a href="#">İ-Akademi Web Mail</a></div>
+                <div class="cOrangeIcon"><a href="#">Dershane İletişim</a></div>
+                Telefon : 244 44 22<br />
+                Adres : Mithatpaşa Cad. No: 689 Köprü İzmir
+                <div class="clear">
+                </div>
+            </div>
+            <div id="dBodyRight">
+            </div>
+            <div class="clear">
+            </div>
         </div>
         <div id="dFooter">
+            <a id="aFooterHakkimizda" href="#">Hakkımızda</a>
+            <div class="dFooterSeperator">
+            </div>
+            <a id="aFooterRehberlik" href="#">Rehberlik</a>
+            <div class="dFooterSeperator">
+            </div>
+            <a id="aFooterIletisimBilgilerimiz" href="#">İletişim Bilgilerimiz</a>
         </div>
     </div>
 </body>

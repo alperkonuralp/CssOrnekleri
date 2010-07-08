@@ -1,7 +1,11 @@
-﻿body
+﻿img {
+    border: 0;
+}
+body
 {
     margin: 0;
     font: 11pt Verdana, Tahoma, serif;
+    background: #00579A;
 }
 
 .clear
@@ -14,7 +18,7 @@
 
 #dContainer
 {
-    width: 790px;
+    width: 780px;
 }
 #dContainer #dHeader
 {
@@ -69,6 +73,94 @@
     background: white url(../images/leftmenuback.png) repeat-y scroll left top;
     min-height: 200px;
 }
+#dContainer #dBody #dBodyLeft
+{
+    width: 214px;
+    float: left;
+    font-size: 9pt;
+    color: #808080;
+}
+#dContainer #dBody #dBodyLeft input[type=text], #dContainer #dBody #dBodyLeft input[type=password]
+{
+    width: 80px;
+}
+#dContainer #dBody #dBodyLeft a.cReklamLink
+{
+    margin: 0 0 0 10px;
+    
+}
+#dContainer #dBody #dBodyLeft .cBlueIcon
+{
+    margin: 5px;
+    background: transparent url(../images/IconBlue.png) no-repeat scroll left top;
+    padding: 2px 0 0 20px;
+    height: 18px;
+}
+#dContainer #dBody #dBodyLeft .cBlueIcon a
+{
+    color: #00579A;
+    text-decoration: none;
+}
+#dContainer #dBody #dBodyLeft .cOrangeIcon
+{
+    margin: 5px;
+    background: transparent url(../images/IconOrange.png) no-repeat scroll left top;
+    padding: 2px 0 0 20px;
+    height: 18px;
+}
+#dContainer #dBody #dBodyLeft .cOrangeIcon a
+{
+    color: #00579A;
+    text-decoration: none;
+}
+
+#dContainer #dBody #dBodyRight
+{
+    width: 566px;
+    float: left;
+}
+
+
 #dContainer #dFooter
 {
+    height: 100px;
+    background: transparent url(../images/footerback.png) repeat-x scroll left top;
+    padding: 50px 0 0 24px;
+}
+#dContainer #dFooter .dFooterSeperator
+{
+    float: left;
+    display: block;
+    width: 9px;
+    height: 72px;
+    background: transparent url(../images/fSeperator.png) no-repeat scroll left top;
+}
+
+
+#dContainer #dFooter #aFooterHakkimizda
+{
+    float: left;
+    display: block;
+    width: 209px;
+    height: 58px;
+    background: transparent url(../images/fhakkimizda.png) no-repeat scroll left top;
+    margin: 7px 10px 0 10px;
+}
+#dContainer #dFooter #aFooterRehberlik
+{
+    float: left;
+    display: block;
+    width: 209px;
+    height: 58px;
+    background: transparent url(../images/fRehberlik.png) no-repeat scroll left top;
+    margin: 7px 10px 0 10px;
+}
+#dContainer #dFooter #aFooterIletisimBilgilerimiz
+{
+    float: left;
+    display: block;
+    width: 209px;
+    height: 58px;
+    background: transparent url(../images/fIletisimBilgileri.png) no-repeat scroll left top;
+    margin: 7px 10px 0 10px;
 }
