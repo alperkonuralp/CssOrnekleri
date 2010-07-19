@@ -1,0 +1,50 @@
+﻿body
+{
+    background: #1D1C1A;
+    font: 12pt calibri, tahoma;
+}
+
+.cNewsContainer
+{
+    width: 255px;
+    color: #999999;
+}
+.cNews
+{
+    width: 255px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.cNews:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);    
+}
+
+.cNews img
+{
+    display: block;
+    float: left;
+    width: 97px;
+    height: 92px;
+    margin: 0 5px 0 0;
+}
+.cNews div.cNewsContent
+{
+    float: left;
+    width: 153px;
+    margin: 5px 0 0 0;
+}
+.cNews a
+{
+    display: block;
+    float: left;
+    width: 153px;
+}
+
+.clear
+{
+    width: 0;
+    height: 0;
+    clear: both;
+    line-height: 0;
+}
