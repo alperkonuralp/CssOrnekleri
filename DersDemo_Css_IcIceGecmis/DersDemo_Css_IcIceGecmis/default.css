@@ -1,0 +1,88 @@
+﻿body{
+    background: #cccccc;
+}
+
+#dBlockContainer
+{
+    width: 1000px;
+}
+.cTuruncu, .cKirmizi
+{
+    background: transparent url(uc.png) no-repeat scroll left top;
+    width: 201px;
+    height: 317px;
+    padding: 0 33px 12px 48px;
+    float: right;
+    opacity: 0.7;
+    filter: alpha(opacity=70);    
+}
+.cTuruncu:hover, .cKirmizi:hover
+{
+    opacity: 1.0;
+    filter: alpha(opacity=100);    
+}
+
+
+.cTuruncu h2, .cKirmizi h2
+{
+    color: White;
+    padding: 45px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.cTuruncu div, .cKirmizi div
+{
+    color: White;
+    padding: 5px 0 0 0;
+    text-align: justify;
+    height: 175px;
+}
+.cTuruncu a, .cKirmizi a
+{
+    display: block;
+    width: 55px;
+    height: 55px; /*background: white;*/
+    margin-left: 152px;
+}
+
+.cKirmizi
+{
+    /*background: transparent url(Kirmizi.png) no-repeat scroll left top;*/
+    /*background-image: url(kirmizi.png);*/
+    background-position: -282px top;
+}
+
+#dAssessment, #dAnalysis, #dConsulting
+{
+    margin-right: -45px;    
+}
+/*#dManagement, #dAssessment, #dAnalysis
+{
+    margin-right: -35px;    
+}*/
+/*#dAssessment, #dAnalysis, #dConsulting
+{
+    position: relative;
+    left: -35px;
+}*/
+/*
+#dManagement
+{
+    z-index: 40;
+}
+#dAssessment
+{
+    z-index: 30;
+}
+
+#dAnalysis
+{
+    z-index: 20;
+}
+
+#dConsulting
+{
+    z-index: 10;
+}
+*/
